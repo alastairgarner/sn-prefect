@@ -23,7 +23,7 @@ flow.run_config = DockerRun(
     image="prefecthq/prefect:latest-python3.8"
 )
 flow.storage = GitHub(
-    repo="alastairgarner/sn-dbt",                            # name of repo
+    repo="alastairgarner/sn-prefect",                            # name of repo
     path="test_flows.py",                    # location of flow file in repo
     # name of personal access token secret
     # access_token_secret="GITHUB_ACCESS_TOKEN"
