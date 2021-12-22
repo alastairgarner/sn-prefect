@@ -24,7 +24,7 @@ flow.run_config = DockerRun(
 )
 flow.storage = GitHub(
     repo="alastairgarner/sn-prefect",                            # name of repo
-    path="test_flows.py",                    # location of flow file in repo
+    path="test-flows.py",                    # location of flow file in repo
     # name of personal access token secret
     # access_token_secret="GITHUB_ACCESS_TOKEN"
 )
